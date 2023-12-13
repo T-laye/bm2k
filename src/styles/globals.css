@@ -1,27 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+* {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: transparent;
 }
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+* > * {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -moz-tap-highlight-color: transparent;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.hero {
+  /* background: ; */
+  /* background: linear-gradient(0deg, rgba(249, 248, 233, 0.10) 0%, rgba(249, 248, 233, 0.10) 100%), url('../../public/images/doge_bg.jpg'), lightgray 50% / cover no-repeat; */
+
   background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      0deg,
+      rgba(249, 248, 233, 0.6) 0%,
+      rgba(249, 248, 233, 0.6) 100%
+    ),
+    url("../../public/images/doge_bg.jpg"), lightgray 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.hero2 {
+  background-image: url("../../public/images/hero.svg");
+  background-position: top left;
+  background-size: 95%;
+  /* background-size: 100px; */
+  background-repeat: no-repeat;
 }
