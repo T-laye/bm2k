@@ -3,20 +3,33 @@ import Header from "../Header";
 import Link from "next/link";
 import Image from "next/image";
 import bg from "/public/images/doge_bg2.jpeg";
+import stuff from "/public/images/hero.svg";
 
 export default function Hero() {
   return (
-    <div className="min-h-[60vh] relative lg:min-h-screen">
+    <div className="min-h-[60vh] relative lg:min-h-screen overflow-hidden">
       <div
         className=" absolute top-0 bottom-0 left-0
-         right-0 object-cover w-full -z-10"
+         right-0 object-cover w-full -z-10 opacity-70"
       >
         <Image
           src={bg}
           height={1000}
           width={1000}
           alt="image"
-          className="object-cover w-full"
+          className="object-cover w-full "
+        />
+      </div>
+      <div
+        className=" absolute top-0  left-0
+          object-cover w-1/2 -z-10 opacity-70"
+      >
+        <Image
+          src={stuff}
+          height={1000}
+          width={1000}
+          alt="image"
+          className="object-cover w-full "
         />
       </div>
       <div className="hero2 h-[50vh] ">
