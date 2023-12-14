@@ -34,11 +34,11 @@ body {
 }
 
 .hero2 {
-  background-image: url("../../public/images/hero.svg");
+  /* background-image: url("../../public/images/hero.svg");
   background-position: top left;
-  background-size: 95%;
+  background-size: 95%; */
   /* background-size: 100px; */
-  background-repeat: no-repeat;
+  /* background-repeat: no-repeat; */
 }
 
 .road {
