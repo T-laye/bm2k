@@ -5,7 +5,7 @@ import dogs from "../../../public/images/dogs.svg";
 export default function About() {
   return (
     <div>
-      <div className="container mx-auto px-6 min-h-[60vh] pb-10">
+      <div className="container mx-auto px-6 min-h-[60vh] pb-20">
         <h2 className="text-2xl mt-5 font-semibold">ABOUT US</h2>
         <div>
           <div>

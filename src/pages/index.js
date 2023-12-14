@@ -1,5 +1,6 @@
 import About from "@/components/sections/About";
 import Backed from "@/components/sections/Backed";
+import Faq from "@/components/sections/Faq";
 import Hero from "@/components/sections/Hero";
 import Road from "@/components/sections/Road";
 import Unique from "@/components/sections/Unique";
@@ -17,6 +18,8 @@ export default function Home() {
       <Road />
 
       <Unique />
+
+      <Faq />
     </main>
   );
 }

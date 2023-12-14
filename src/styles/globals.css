@@ -49,6 +49,9 @@ body {
     #4b56ad 103.55%
   );
 }
+.faq{
+  background: linear-gradient(106deg, #03468C 0%, rgba(98, 63, 183, 0.80) 100%);
+}
 .card-shadow {
   box-shadow: 6px 8px 6px 0px rgba(195, 231, 238, 0.5);
   transition: all 0.3s ease-in-out;
