@@ -46,13 +46,13 @@ export default function Hero() {
       </div>
       <div className="lg:flex">
         <div className="lg:w-2/5"></div>
-        <div className="bg-white lg:bg-transparent  pt-10 px-6 text-center lg:w-1/2 lg:h-full">
+        <div className="bg-white lg:bg-transparent lg:mt-28 pt-10 px-6 text-center lg:w-1/2 lg:h-full">
           <p className="text-base mt-2 font-medium lg:text-lg md:w-2/3 mx-auto lg:w-full">
             A drc20 free mint to honor Billy Markus Creator of Dogecoin. Billy
             Markus thinks we&apos;re &apos;all this stuff is like… interesting
             haha very beta.
           </p>
-          <h1 className="text-2xl text-center font-bold lg:text-5xl lg:mt-28">
+          <h1 className="text-2xl text-center font-bold lg:text-5xl mt-5 ">
             START USING BM2K TODAY
           </h1>
 
