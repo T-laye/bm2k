@@ -6,7 +6,7 @@ import Footer from "./Footer";
 
 export default function Faq() {
   return (
-    <div className="faq text-white min-h-screen">
+    <div id="faq" className="faq text-white min-h-screen">
       <div className="container mx-auto px-6 py-10">
         <h3 className="text-2xl text-center px-4">
           FREQUENTLY ASKED QUESTIONS (FAQ)
