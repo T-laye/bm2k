@@ -8,8 +8,8 @@ export default function About() {
       <div className="container mx-auto px-6 min-h-[60vh] lg:min-h-[80vh] pb-20 lg:pb-10 ">
         <h2 className="text-2xl mt-5 font-semibold lg:hidden">ABOUT US</h2>
         <div className="lg:flex flex-row-reverse lg:mt-20 items-center">
-          <div className="w-1/2 ml-10">
-            <h2 className="text-2xl mt-5 font-semibold lg:text-3xl">
+          <div className="lg:w-1/2 lg:ml-10">
+            <h2 className="text-2xl mt-5 font-semibold lg:text-3xl hidden lg:block lg:text-center">
               ABOUT US
             </h2>
             <p className="mt-2 text-base">
