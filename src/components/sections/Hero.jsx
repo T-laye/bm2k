@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function Hero() {
   return (
-    <div className="bg-primary min-h-[60vh] hero lg:min-h-screen">
+    <div className="min-h-[60vh] hero lg:min-h-screen">
       <div className="hero2 h-[50vh] ">
         <Header />
       </div>
