@@ -10,9 +10,9 @@ import card6 from "../../../public/images/card6.svg";
 export default function Unique() {
   return (
     <div>
-      <div className="container mx-auto px-6 py-20">
+      <div className="container mx-auto px-6 py-20 ">
         <h2 className="text-center">WHAT MAKES BM2K UNIQUE</h2>
-        <div className="flex flex-col items-center mt-7">
+        <div className="flex flex-col lg:flex-row flex-wrap justify-evenly items-center mt-7">
           <Card
             icon={card1}
             title="Heartfelt Inception"

@@ -7,33 +7,35 @@ export default function Footer() {
   return (
     <div>
       <div className="container mx-auto px-6">
-        <div className="flex items-center space-x-2">
-          <Link href="/">
-            <div className="h-10 w-10 rounded-full overflow-hidden">
-              <Image src={logo} height={100} width={100} alt="logo" />
-            </div>
-          </Link>
-          <span className="">BM2K</span>
+        <div className="lg:flex lg:items-center justify-between">
+          <div className="flex items-center space-x-2">
+            <Link href="/">
+              <div className="h-10 w-10 rounded-full overflow-hidden">
+                <Image src={logo} height={100} width={100} alt="logo" />
+              </div>
+            </Link>
+            <span className="">BM2K</span>
+          </div>
+
+          <nav>
+            <ul className="mt-8 flex flex-col space-y-2 lg:flex-row lg:items-center lg:mt-0 lg:space-x-6 lg:space-y-0">
+              <li>
+                <Link href="#">Home</Link>
+              </li>
+              <li>
+                <Link href="#">About us</Link>
+              </li>
+              <li>
+                <Link href="#">Much News</Link>
+              </li>
+              <li>
+                <Link href="#">Terms & Conditions</Link>
+              </li>
+            </ul>
+          </nav>
         </div>
 
-        <nav>
-          <ul className="mt-8 flex flex-col space-y-2">
-            <li>
-              <Link href="#">Home</Link>
-            </li>
-            <li>
-              <Link href="#">About us</Link>
-            </li>
-            <li>
-              <Link href="#">Much News</Link>
-            </li>
-            <li>
-              <Link href="#">Terms & Conditions</Link>
-            </li>
-          </ul>
-        </nav>
-
-        <div className="pt-2 pb-4 border-t mt-8 flex items-center justify-center space-x-4">
+        <div className="pt-2 pb-4 border-t mt-8 lg:mt-4 flex items-center justify-center space-x-4">
           <span className="text-2xl"> &copy; </span>
           <span> 2023 BM2K. </span>
           <span> All rights reserved </span>

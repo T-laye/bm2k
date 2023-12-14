@@ -5,10 +5,13 @@ import dogs from "../../../public/images/dogs.svg";
 export default function About() {
   return (
     <div>
-      <div className="container mx-auto px-6 min-h-[60vh] pb-20">
-        <h2 className="text-2xl mt-5 font-semibold">ABOUT US</h2>
-        <div>
-          <div>
+      <div className="container mx-auto px-6 min-h-[60vh] lg:min-h-[80vh] pb-20 lg:pb-10 ">
+        <h2 className="text-2xl mt-5 font-semibold lg:hidden">ABOUT US</h2>
+        <div className="lg:flex flex-row-reverse lg:mt-20 items-center">
+          <div className="w-1/2 ml-10">
+            <h2 className="text-2xl mt-5 font-semibold lg:text-3xl">
+              ABOUT US
+            </h2>
             <p className="mt-2 text-base">
               Do you have any ideas for the whitepaper? BM2k is a DRC20 (free
               mint) token created to pay tribute to Billy Markus, the creator of
@@ -27,7 +30,7 @@ export default function About() {
             </p>
           </div>
 
-          <div className="h-full w-full mt-10">
+          <div className="h-full w-full mt-10 lg:w-1/2">
             <Image
               src={dogs}
               height={100}
