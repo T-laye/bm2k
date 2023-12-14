@@ -6,19 +6,19 @@ import Footer from "./Footer";
 
 export default function Faq() {
   return (
-    <div id="faq" className="faq text-white min-h-screen">
+    <div id="faq" className="faq text-white lg:min-h-screen">
       <div className="container mx-auto px-6 py-10">
         <h3 className="text-2xl text-center px-4">
           FREQUENTLY ASKED QUESTIONS (FAQ)
         </h3>
         <div className="lg:flex items-center lg:mb-20">
-          <div className="h-full w-full object-contain px-12 mt-8 lg:w-1/2 lg:px-28 ">
+          <div className="h-full w-full object-contain px-12 mt-8 md:w-2/3  mx-auto  lg:w-1/2 lg:px-28 ">
             <Image
               src={bigdog}
               height={100}
               width={100}
               alt="icon"
-              className="object-contain h-full w-full"
+              className="object-contain  h-full w-full"
             />
           </div>
           <div className="mt-10 lg:w-1/2 ">

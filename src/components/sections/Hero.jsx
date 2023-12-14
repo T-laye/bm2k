@@ -47,14 +47,14 @@ export default function Hero() {
       <div className="lg:flex">
         <div className="lg:w-2/5"></div>
         <div className="bg-white lg:bg-transparent  pt-10 px-6 text-center lg:w-1/2 lg:h-full">
-          <h1 className="text-2xl text-center font-bold lg:text-5xl lg:mt-28">
-            START USING BM2K TODAY
-          </h1>
-          <p className="text-base mt-2 font-medium lg:text-lg">
+          <p className="text-base mt-2 font-medium lg:text-lg md:w-2/3 mx-auto lg:w-full">
             A drc20 free mint to honor Billy Markus Creator of Dogecoin. Billy
             Markus thinks we&apos;re &apos;all this stuff is like… interesting
             haha very beta.
           </p>
+          <h1 className="text-2xl text-center font-bold lg:text-5xl lg:mt-28">
+            START USING BM2K TODAY
+          </h1>
 
           <div className="flex space-x-8 justify-center mt-6 pb-10 max-[300px]:flex-col max-[300px]:space-x-0 max-[300px]:space-y-2 lg:text-lg">
             <Link href="https://doggy.market/bm2k">

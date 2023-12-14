@@ -68,8 +68,8 @@ export default function Header() {
           className={`${
             open
               ? "translate-x-0 duration-300"
-              : "translate-x-full duration-300"
-          } lg:hidden absolute text-lg right-0 duration-300 rounded-2xl nav-shadow w-2/3 h-[50vh] bg-white px-2`}
+              : "translate-x-[200%] duration-300"
+          } lg:hidden absolute text-lg right-0 duration-300 rounded-2xl nav-shadow w-2/3 min-h-[50vh] bg-white px-2`}
         >
           <div className="my-5 flex space-x-5 px-2 text-2xl">
             <div onClick={() => setOpen(!open)}>X</div>
