@@ -40,3 +40,24 @@ body {
   /* background-size: 100px; */
   background-repeat: no-repeat;
 }
+
+.road {
+  background: linear-gradient(
+    131deg,
+    #104992 -59.42%,
+    #969b54 -33.84%,
+    #4b56ad 103.55%
+  );
+}
+.card-shadow {
+  box-shadow: 6px 8px 6px 0px rgba(195, 231, 238, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.card-shadow:hover {
+  box-shadow: 3px 4px 6px 0px rgba(195, 231, 238, 0.5);
+}
+
+h2 {
+  @apply text-2xl  font-semibold;
+}
