@@ -19,11 +19,15 @@ export default function whitepaper() {
         <h3
           data-aos="fade-up"
           data-aos-delay=""
-          className="text-2xl font-bold text-center mt-10"
+          className="text-2xl font-bold text-center mt-20"
         >
           BRIEF HISTORY
         </h3>
-        <p data-aos="fade-up" data-aos-delay="300" className="text-lg mt-4">
+        <p
+          data-aos="fade-up"
+          data-aos-delay="300"
+          className="text-lg mt-4 mx-auto"
+        >
           The historical account of drc20 holds notable significance within the
           Dogecoin and Doginals community. As recounted by those familiar with
           its evolution, drc20 stands out as the first token to establish
