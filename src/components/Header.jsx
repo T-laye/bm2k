@@ -79,7 +79,10 @@ export default function Header() {
             <div onClick={() => setOpen(!open)}>X</div>
             <div>Menu</div>
           </div>
-          <ul className=" flex flex-col space-y-2 lg:flex-row lg:items-center lg:mt-0 lg:space-x-6 lg:space-y-0">
+          <ul
+            onClick={() => setOpen(!open)}
+            className=" flex flex-col space-y-2 lg:flex-row lg:items-center lg:mt-0 lg:space-x-6 lg:space-y-0"
+          >
             <li className="hover:text-primary border-b border-b-[#333333] mb-2 pb-2 px-2 duration-300">
               <Link href="#home">Home</Link>
             </li>
