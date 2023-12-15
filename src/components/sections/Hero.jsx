@@ -9,7 +9,7 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="min-h-[60vh] relative lg:min-hscreen overflow-hidden"
+      className="min-h-[100vh] relative lg:min-hscreen overflow-hidden"
     >
       {/* <div
         className=" absolute top-0 bottom-0 left-0
@@ -57,7 +57,7 @@ export default function Hero() {
           <p
             data-aos="fade-up"
             data-aos-delay="200"
-            className="text-base mt-2 font-medium lg:text-lg md:w-2/3 mx-auto lg:w-full"
+            className="text-xl mt-20 lg:mt-2 font-medium lg:text-xl md:w-2/3 mx-auto lg:w-full"
           >
             A drc20 free mint to honor Billy Markus Creator of Dogecoin. Billy
             Markus thinks we&apos;re &apos;all this stuff is like… interesting
@@ -66,7 +66,7 @@ export default function Hero() {
           <h1
             data-aos="fade-up"
             data-aos-delay="200"
-            className="text-2xl text-center font-bold lg:text-5xl mt-5 "
+            className="text-3xl text-center font-bold lg:text-5xl mt-5 "
           >
             START USING BM2K TODAY
           </h1>
