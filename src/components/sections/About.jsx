@@ -6,13 +6,27 @@ export default function About() {
   return (
     <div id="about">
       <div className="container mx-auto px-6 min-h-[60vh] lg:min-h-[80vh] pt-10 pb-20 lg:pb-10 ">
-        <h2 className="text-2xl mt-5 font-semibold lg:hidden">ABOUT US</h2>
+        <h2
+          data-aos="fade-up"
+          data-aos-delay=""
+          className="text-2xl mt-5 font-semibold lg:hidden"
+        >
+          ABOUT US
+        </h2>
         <div className="lg:flex flex-row-reverse lg:mt-20 items-center">
           <div className="lg:w-1/2 lg:ml-10">
-            <h2 className="text-2xl mt-5 font-semibold lg:text-3xl hidden lg:block lg:text-center">
+            <h2
+              data-aos="fade-up"
+              data-aos-delay=""
+              className="text-2xl mt-5 font-semibold lg:text-3xl hidden lg:block lg:text-center"
+            >
               ABOUT US
             </h2>
-            <p className="mt-2 text-base mb-4 lg:mb-0">
+            <p
+              data-aos="fade-up"
+              data-aos-delay=""
+              className="mt-2 text-base mb-4 lg:mb-0"
+            >
               BM2k is a DRC20 (free mint) token created to pay tribute to Billy
               Markus, the creator of Dogecoin. It had a fair launch and was
               officially the first DRC20 token to reach Billy&apos;s Dogecoin
@@ -29,7 +43,11 @@ export default function About() {
             </p>
           </div>
 
-          <div className="h-full w-full mt-10 lg:w-1/2">
+          <div
+            data-aos="fade-up"
+            data-aos-delay=""
+            className="h-full w-full mt-10 lg:w-1/2"
+          >
             <Image
               src={dogs}
               height={100}

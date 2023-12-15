@@ -8,10 +8,18 @@ export default function Faq() {
   return (
     <div id="faq" className="faq text-white lg:min-h-screen">
       <div className="container mx-auto px-6 py-10">
-        <h3 className="text-2xl text-center px-4">
+        <h3
+          data-aos="fade-up"
+          data-aos-delay=""
+          className="text-2xl text-center px-4"
+        >
           FREQUENTLY ASKED QUESTIONS (FAQ)
         </h3>
-        <div className="lg:flex items-center lg:mb-20">
+        <div
+          data-aos="flip-right"
+          data-aos-delay=""
+          className="lg:flex items-center lg:mb-20"
+        >
           <div className="h-full w-full object-contain px-12 mt-8 md:w-2/3  mx-auto  lg:w-1/2 lg:px-28 ">
             <Image
               src={bigdog}
@@ -21,7 +29,7 @@ export default function Faq() {
               className="object-contain  h-full w-full"
             />
           </div>
-          <div className="mt-10 lg:w-1/2 ">
+          <div data-aos="fade-up" data-aos-delay="200" className="mt-10 lg:w-1/2 ">
             <FaqCard
               title="What inspired the creation of BM2K?"
               text="BM2K was inspired by a heartfelt interaction with Billy Markus, the creator of Dogecoin. The token serves as a unique and genuine tribute to express appreciation for his contributions to the crypto community.

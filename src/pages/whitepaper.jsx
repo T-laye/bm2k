@@ -9,12 +9,21 @@ export default function whitepaper() {
     <div>
       <div className="container mx-auto py-10 text-lg px-5">
         {/* <Header /> */}
-        <div className="font-bold text-primary">
+        <div
+          data-aos="fade-left"
+          data-aos-delay=""
+          className="font-bold text-primary"
+        >
           <Link href="/">Back to Home</Link>
-  
         </div>
-        <h3 className="text-2xl font-bold text-center mt-10">BRIEF HISTORY</h3>
-        <p className="text-lg mt-4">
+        <h3
+          data-aos="fade-up"
+          data-aos-delay=""
+          className="text-2xl font-bold text-center mt-10"
+        >
+          BRIEF HISTORY
+        </h3>
+        <p data-aos="fade-up" data-aos-delay="300" className="text-lg mt-4">
           The historical account of drc20 holds notable significance within the
           Dogecoin and Doginals community. As recounted by those familiar with
           its evolution, drc20 stands out as the first token to establish
@@ -43,8 +52,18 @@ export default function whitepaper() {
         </p>
 
         <div>
-          <h3 className="text-2xl font-bold text-center mt-10">WHITE PAPER</h3>
-          <div className="h-24 w-2/3 lg:w-1/3 max-[300px]:w-14 mx-auto">
+          <h3
+            data-aos="fade-up"
+            data-aos-delay="300"
+            className="text-2xl font-bold text-center mt-10"
+          >
+            WHITE PAPER
+          </h3>
+          <div
+            data-aos="fade-down"
+            data-aos-delay=""
+            className="h-24 w-2/3 lg:w-1/3 max-[300px]:w-14 mx-auto"
+          >
             <Image src={paper} height={1000} width={1000} alt="paper" />
           </div>
         </div>

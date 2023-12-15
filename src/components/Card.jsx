@@ -3,7 +3,11 @@ import React from "react";
 
 export default function Card({ icon, title, text }) {
   return (
-    <div className="card-shadow h-[390px] w-[350px] max-[300px]:w-[250px] max-[300px]:h-[350px]   rounded-2xl px-5 mt-8 py-5 bg-[#faf4ff] flex flex-col justify-evenly items-center">
+    <div
+      data-aos="flip-left"
+      data-aos-delay="100"
+      className="card-shadow h-[390px] w-[350px] max-[300px]:w-[250px] max-[300px]:h-[350px]   rounded-2xl px-5 mt-8 py-5 bg-[#faf4ff] flex flex-col justify-evenly items-center"
+    >
       <div className="h-32 w-32 object-contain ">
         <Image
           src={icon}

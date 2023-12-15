@@ -12,7 +12,11 @@ export default function Header() {
 
   return (
     <div className="fixed top-0 left-0 right-0 bg-[#7529A505] backdrop-blur-sm z-10 pb-5">
-      <div className="flex container mx-auto justify-between px-6 pt-6 relative">
+      <div
+        data-aos="flip-down"
+        data-aos-delay="500"
+        className="flex container mx-auto justify-between px-6 pt-6 relative"
+      >
         <Link href="/">
           <div className="h-10 w-10 rounded-full overflow-hidden">
             <Image src={logo} height={100} width={100} alt="logo" />

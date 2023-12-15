@@ -11,7 +11,9 @@ export default function Unique() {
   return (
     <div id="unique">
       <div className="container mx-auto px-6 py-20 ">
-        <h2 className="text-center">WHAT MAKES BM2K UNIQUE</h2>
+        <h2 data-aos="fade-up" data-aos-delay="" className="text-center">
+          WHAT MAKES BM2K UNIQUE
+        </h2>
         <div className="flex flex-col md:flex-row md:gap-5 flex-wrap justify-evenly items-center mt-7">
           <Card
             icon={card1}

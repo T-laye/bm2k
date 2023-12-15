@@ -3,7 +3,12 @@ import React, { useState } from "react";
 export default function FaqCard({ title, text }) {
   const [open, setOpen] = useState(false);
   return (
-    <div onClick={() => setOpen(!open)} className="border-b pb-4 mb-8">
+    <div
+      data-aos="flip-down"
+      data-aos-delay="200"
+      onClick={() => setOpen(!open)}
+      className="border-b pb-4 mb-8"
+    >
       <div className="flex justify-between items-center">
         <h4 className="text-base">{title}</h4>
         {!open ? (
