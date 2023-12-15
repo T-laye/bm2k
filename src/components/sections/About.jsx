@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import dogs from "../../../public/images/dogs.svg";
+import dogs from "../../../public/images/billy_logo-removebg-preview.png";
 
 export default function About() {
   return (
     <div id="about">
-      <div className="container mx-auto px-6 min-h-[60vh] lg:min-h-[80vh] pt-10 pb-20 lg:pb-10 ">
+      <div className="container mx-auto px-6 min-h-[60vh] lg:min-h-[80vh] pt10 pb-20 lg:pb-10 ">
         <h2
           data-aos="fade-up"
           data-aos-delay=""
@@ -46,12 +46,12 @@ export default function About() {
           <div
             data-aos="fade-up"
             data-aos-delay=""
-            className="h-full w-full mt-10 lg:w-1/2"
+            className="h-full w-full mt-10 lg:w-1/3 mx-auto"
           >
             <Image
               src={dogs}
-              height={100}
-              width={100}
+              height={1000}
+              width={1000}
               alt="logo"
               className="w-full h-full"
             />

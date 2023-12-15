@@ -18,7 +18,7 @@ export default function FaqCard({ title, text }) {
         )}
       </div>
       {open && (
-        <div className="mt-4 ">
+        <div className="mt-4 w-1/2">
           <p>{text}</p>
         </div>
       )}

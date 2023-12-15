@@ -46,7 +46,10 @@ export default function Header() {
               <Link href="/whitepaper">Whitepaper</Link>
             </li>
             <li className="hover:text-primary duration-300">
-              <Link target="_blank" href="https://twitter.com/_electronicCash">
+              <Link
+                target="_blank"
+                href="https://x.com/bm2kdrc20?t=XABthFfr6fuV_1147xRoAg&s=09"
+              >
                 Much News
               </Link>
             </li>
@@ -104,7 +107,10 @@ export default function Header() {
               <Link href="/whitepaper">Whitepaper</Link>
             </li>
             <li className="hover:text-primary border-b border-b-[#333333] mb-2 pb-2 px-2 duration-300">
-              <Link target="_blank" href="https://twitter.com/_electronicCash">
+              <Link
+                target="_blank"
+                href="https://x.com/bm2kdrc20?t=XABthFfr6fuV_1147xRoAg&s=09"
+              >
                 Much News
               </Link>
             </li>

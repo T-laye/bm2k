@@ -15,11 +15,11 @@ export default function Unique() {
           WHAT MAKES BM2K UNIQUE
         </h2>
         <div className="flex flex-col md:flex-row md:gap-5 flex-wrap justify-evenly items-center mt-7">
-          <Card
+          {/* <Card
             icon={card1}
             title="Heartfelt Inception"
             text="BM2K's genesis is rooted in a unique interaction with Dogecoin creator Billy Markus, making it a token born out of genuine appreciation and sentiment."
-          />
+          /> */}
           <Card
             icon={card2}
             title="Limited Edition Appeal"
@@ -30,19 +30,19 @@ export default function Unique() {
             title="Community-Centric Symbolism"
             text="Beyond a token, BM2K is a symbol of unity within the Dogecoin community, where holders actively contribute to the narrative and direction of the project."
           />
-          <Card
+          {/* <Card
             icon={card4}
             title="Interactive Governance"
             text="BM2K empowers token holders with governance rights, allowing them to vote on proposals and actively shape community initiatives, fostering inclusivity and democratic decision-making."
-          />
-          <Card
+          /> */}
+          {/* <Card
             icon={card5}
             title="NFT Integration"
             text="BM2K integrates NFTs, enabling token holders to unlock exclusive digital assets related to Billy Markus, enhancing engagement and personalization."
-          />
+          /> */}
           <Card
             icon={card6}
-            title="Dynamic Development Fund"
+            title="Development Fund"
             text="A dedicated fund ensures ongoing development, supporting initiatives, community events, and collaborations, keeping BM2K relevant and dynamic in the crypto landscape."
           />
         </div>

@@ -9,9 +9,9 @@ export default function Hero() {
   return (
     <div
       id="home"
-      className="min-h-[60vh] relative lg:min-h-screen overflow-hidden"
+      className="min-h-[60vh] relative lg:min-hscreen overflow-hidden"
     >
-      <div
+      {/* <div
         className=" absolute top-0 bottom-0 left-0
          right-0 object-cover w-full lg:h-full -z-10 opacity-50"
       >
@@ -34,8 +34,8 @@ export default function Hero() {
           alt="image"
           className="object-contain  w-full "
         />
-      </div>
-      <div
+      </div> */}
+      {/* <div
         data-aos="fade-right"
         // data-aos-delay="500"
         className="hidden lg:block absolute -top-5  -left-[20%] 2xl:-left-[10%] object-contain h-full  -z-10 opacity-90"
@@ -47,13 +47,13 @@ export default function Hero() {
           alt="image"
           className="object-contain h-full  "
         />
-      </div>
-      <div className="hero2 h-[50vh] lg:h-full w-full ">
+      </div> */}
+      <div className="h-[10vh] lg:h-full w-full ">
         <Header />
       </div>
       <div className="lg:flex">
-        <div className="lg:w-2/5"></div>
-        <div className="bg-white lg:bg-transparent lg:mt-28 pt-10 px-6 text-center lg:w-1/2 lg:h-full">
+        {/* <div className="lg:w-2/5"></div> */}
+        <div className="bg-white lg:bg-transparent lg:mt-28 pt-10 px-6 text-center mx-auto lg:w-1/2 lg:h-full">
           <p
             data-aos="fade-up"
             data-aos-delay="200"
