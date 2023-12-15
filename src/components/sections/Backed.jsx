@@ -6,11 +6,9 @@ import logo3 from "../../../public/images/doggy_lab.svg";
 
 export default function Backed() {
   return (
-    <div className="container mx-auto bg-white pt-10">
+    <div className="container mx-auto bg-white pt-10 border-b border-t lg:border-0 ">
       <h2 className="text-2xl text-center  mb-5">Backed By:</h2>
       <div className="flex justify-evenly item-center  ">
-       
-
         <div className="h-28 w-28 max-[300px]:w-20 lg:w-52 ">
           <Image src={logo1} height={1000} width={1000} alt="logo" />
         </div>

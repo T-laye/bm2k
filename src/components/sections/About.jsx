@@ -12,7 +12,7 @@ export default function About() {
             <h2 className="text-2xl mt-5 font-semibold lg:text-3xl hidden lg:block lg:text-center">
               ABOUT US
             </h2>
-            <p className="mt-2 text-base">
+            <p className="mt-2 text-base mb-4 lg:mb-0">
               BM2k is a DRC20 (free mint) token created to pay tribute to Billy
               Markus, the creator of Dogecoin. It had a fair launch and was
               officially the first DRC20 token to reach Billy&apos;s Dogecoin
