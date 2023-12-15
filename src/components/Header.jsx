@@ -79,7 +79,9 @@ export default function Header() {
           } lg:hidden absolute text-lg right-0 duration-300 rounded-2xl nav-shadow w-2/3 min-h-[50vh] bg-white px-2 pb-4`}
         >
           <div className="my-5 flex space-x-5 px-2 text-2xl">
-            <div onClick={() => setOpen(!open)}>X</div>
+            <div onClick={() => setOpen(!open)} className="cursor-pointer">
+              X
+            </div>
             <div>Menu</div>
           </div>
           <ul
@@ -132,7 +134,7 @@ export default function Header() {
         </nav>
 
         <div onClick={() => setOpen(!open)} className="lg:hidden">
-          <IoMdMenu size={32} className="text-primary" />
+          <IoMdMenu size={32} className="text-primary cursor-pointer" />
         </div>
       </div>
     </div>
