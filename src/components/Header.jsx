@@ -25,7 +25,7 @@ export default function Header() {
               <Link href="#home">Home</Link>
             </li>
             <li className="hover:text-primary duration-300">
-              <Link href="#about">About us</Link>
+              <Link href="/#about">About us</Link>
             </li>
             <li className="hover:text-primary duration-300">
               <Link href="#roadmap">Roadmap</Link>
